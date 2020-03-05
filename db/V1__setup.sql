@@ -8,7 +8,8 @@ CREATE TABLE default.sitemap (
     title VARCHAR(256),
     skip_update boolean,
     skip_migrate boolean,
-    duplicate VARCHAR(256)
+    duplicate_id VARCHAR(256),
+    content TEXT
 );
 
 DROP TABLE IF EXISTS default.agency;
